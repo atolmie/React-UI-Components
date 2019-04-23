@@ -11,3 +11,7 @@
 .light-gray {
     color: #999999;
 }
+
+.imagethumbnail img {
+    max-width: 100%;
+}

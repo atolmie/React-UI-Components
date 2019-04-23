@@ -1,1 +1,10 @@
 /* All styles for your Card Components live here */
+
+.cardcontainer {
+    max-width: 100%;
+    
+}
+
+.cardbanner img {
+    max-width: 100%;
+}
