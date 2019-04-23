@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
-import './CardContent';
-import './CardBanner';
+import CardContent from './CardContent';
+import CardBanner from './CardBanner';
 
 // will contain the div w/ border
 // import banner
@@ -9,10 +9,10 @@ import './CardBanner';
 
 const CardContainer = () => {
     return (
-      <div className="cardcontainer">
-        <CardContent />
+      <a href="https://www.reactjs.org" className="cardcontainer">
         <CardBanner />
-      </div>
+        <CardContent />
+      </a>
     );
   };
   
