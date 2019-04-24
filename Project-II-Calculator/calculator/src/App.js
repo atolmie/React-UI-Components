@@ -8,18 +8,17 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 const App = () => {
   return (
       <div>
-
         <div className="display">
           <CalculatorDisplay text="0"/>
         </div>
 
         <div className="clear0">
           <ActionButton text="clear"/>
-          <ActionButton text="/"/>
+          <ActionButton text="/" buttonStyle="red-bg"/>
       </div>
        
         <div className="row">
-          <NumberButton text="7"/>
+          <NumberButton text="7"/> 
           <NumberButton text="8"/>
           <NumberButton text="9"/>
           <NumberButton text="x" buttonStyle="red-bg"/>
@@ -40,7 +39,7 @@ const App = () => {
 
       <div className="clear0">
         <ActionButton text="0"/>
-        <ActionButton text="="/>
+        <ActionButton text="=" buttonStyle="red-bg"/>
       </div>
     </div>
   );
