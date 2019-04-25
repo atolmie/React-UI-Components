@@ -1,1 +1,17 @@
 /* All styles for your header Components live here */
+
+.header-title {
+    display: flex;
+}
+
+.header-title div {
+    margin-right: 16px;
+}
+
+.light-gray {
+    color: #999999;
+}
+
+.imagethumbnail img {
+    max-width: 100%;
+}

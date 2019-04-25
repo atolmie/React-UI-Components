@@ -1,0 +1,22 @@
+
+button {
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 2em;
+
+    &.red-bg {
+        background-color: darkred;
+        color: white;
+    }
+}
+
+.clear0 button {
+    width: 300px;
+    height: 100px;
+}
+
+.clear0 button.red-bg {
+    width: 100px;
+    height: 100px;
+}
